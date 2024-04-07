@@ -63,3 +63,5 @@ class Basic:
             return self.u.logical_nor(b_xnor, c_xnor)
         else:
             raise ValueError("Invalid gate type")
+
+# XOR + NAND = XNOR (change 1) -> 07.04.2024
